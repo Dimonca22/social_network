@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import PostCreations, Client
 
-# Register your models here.
+admin.site.register(PostCreations)
+admin.site.register(Client)
